@@ -1,0 +1,5 @@
+Aprenda com especialista e torne-se um(a) desenvolvedor(a) Front-End!
+
+Você já imaginou criar sites que impressionam tanto pelo visual quanto pela performance? O front-end é a peça-chave por trás das interfaces que vemos e interagimos na web. Se você quer dominar essa área e conquistar oportunidades no mercado de tecnologia, nosso curso de Front-End é o caminho ideal!
+
+Neste curso, você aprenderá tudo que precisa para se tornar um desenvolvedor front-end completo, capaz de criar experiências incríveis para os usuários. Não importa se você é iniciante ou já tem algum conhecimento, o conteúdo foi planejado para levar você do básico ao avançado, garantindo o domínio das principais ferramentas e tecnologias.
