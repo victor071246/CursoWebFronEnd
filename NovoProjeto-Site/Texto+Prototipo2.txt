@@ -1,0 +1,39 @@
+O que você vai aprender?
+
+HTML5 e CSS3 : Domine a estrutura e o estilo das páginas web.
+
+JavaScript : Torne seus sites dinâmicos e interativos com uma das linguagens mais populares do mundo.
+
+Design Responsivo : Crie sites que se adaptam a qualquer tela, seja mobile, tablet ou desktop.
+
+Otimização de Desempenho : Técnicas para garantir que suas páginas sejam carregadas rapidamente e proporcionem uma experiência fluida.//
+
+Por que esse curso é ideal para você?
+
+Metodologia Prática : Você aprenderá codificando, com exercícios reais e testes que vão solidificar seu conhecimento.
+
+Projetos Reais : Desenvolva projetos completos para montar um portfólio profissional e atrair a atenção de recrutadores.
+
+Acesso Vitalício : Aprenda no seu ritmo e tenha acesso ao conteúdo sempre que precisar.
+
+Suporte Exclusivo : Tire suas dúvidas diretamente com especialistas que atuam no mercado e estão prontos para ajudá-lo no futuro.
+
+Certificação Reconhecida : Ao concluir o curso, você recebe um certificado que comprova seu conhecimento e pode ser um diferencial no seu currículo.
+
+Para quem é este curso?
+
+Iniciantes : Não tem experiência com programação? Sem problemas! Nosso curso foi pensado para introduzir você aos conceitos fundamentais, com uma curva de aprendizado suave e prática.
+
+Desenvolvedores em Transição de Carreira : Se você já tem experiência em outras áreas da tecnologia, mas quer migrar para o front-end, este curso vai acelerar seu processo de transição.
+
+Profissionais de Design : Se você é designer e deseja levar suas habilidades para o próximo nível, criando sites completos e funcionais, este curso será uma ótima adição ao seu repertório.
+
+Vantagens de Aprender Front-End Hoje
+
+A demanda por desenvolvedores front-end não para de crescer, já que a presença digital das empresas é cada vez mais essencial. Sites bem construídos e funcionais são uma necessidade, e profissionais que dominam as técnicas de front-end estão sendo disputados no mercado.
+
+Altos Salários : As empresas pagam bem por quem sabe criar sites modernos e eficientes.
+
+Flexibilidade : Trabalhe em empresas renomadas ou atue como freelancer, criando sua própria carteira de clientes.
+
+Tecnologia em Constante Evolução : O front-end evolui rapidamente, e aprender essas habilidades agora vai garantir que você esteja preparado para o futuro.

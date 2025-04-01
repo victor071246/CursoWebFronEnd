@@ -19,6 +19,8 @@ header {
     padding: 1%;
     background-color: var(--preto);
     color: var(--branco);
+    position: fixed;
+    width: 100%;
 }
 
 body {
@@ -29,13 +31,15 @@ main {
     background-color: var(--branco);
     padding: 1.5%;
     margin: auto;
-    max-width: 800px;
-    min-width: 350px;
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 1px 1px 5px;
 }
 
 /*Configurações de Títulos / Headlines*/
 h1 {
     font-size: 2.5em;
+    margin-top: 1%;
 }
 h2 {
     font-size: 1.5em;
@@ -54,4 +58,39 @@ h5,
 h6 {
     padding-top: 0.5%;
     padding-bottom: 0.5%;
+}
+/*Configurações de Imagens*/
+img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 1%;
+}
+/*Configurações de Parágrafos*/
+p {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/*Configurações de Parágrafos para Disposivitos Móveis*/
+
+@media (min-width: 360px) and (max-width: 800px) {
+    p {
+        padding-top: 3%;
+        padding-bottom: 3%;
+        text-align: justify;
+    }
+    /*Configurações de Divs para Disposivitos Móveis*/
+}
+
+/*Divs*/
+.separador {
+    margin-top: 7%;
+}
+
+/*Configurações de Divs para Disposivitos Móveis*/
+
+@media (min-width: 360px) and (max-width: 800px) {
+    .separador {
+        margin-top: 15%;
+    }
 }
