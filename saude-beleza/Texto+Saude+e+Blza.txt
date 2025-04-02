@@ -1,0 +1,33 @@
+<h2>Seja bem vindo(a)!</h2>
+
+<h2>Saúde & Beleza - Cuidando de Você por Dentro e por Fora </h2>
+
+<p>
+Nossa principal tarefa é ajudar cada pessoa a se redescobrir e a cultivar o autocuidado como parte essencial de sua rotina.
+<br>
+Acreditamos que a verdadeira beleza vem de um corpo e mente equilibrados, e, para isso, oferecemos um espaço dedicado a práticas que melhoram a saúde e promovem o bem-estar.
+</p>
+
+<h2>Nossos Serviços</h2>
+<br>
+<p>
+Estética Facial e Corporal : Oferecemos soluções inovadoras, sempre respeitando a individualidade de cada cliente. Desde limpeza de pele até terapias de rejuvenescimento, nossa equipe está preparada para proporcionar uma experiência única e relaxante.
+
+Cuidados Capilares : Nossos especialistas oferecem cuidados personalizados para o fortalecimento, hidratação e revitalização dos fios. Trabalhamos com produtos de alta qualidade para todos os tipos de cabelo.
+
+Bem-estar e Relaxamento : Yoga, massagens e terapias alternativas estão entre os serviços que promovem relaxamento e recuperação. Nosso objetivo é criar um ambiente onde cada pessoa possa relaxar e recarregar suas energias.
+Consultoria de Autocuidado : Oferecemos sessões para quem deseja criar uma rotina de beleza e saúde personalizada, entendendo o que é essencial para alcançar um equilíbrio no dia a dia.
+</p>
+
+<h2>Nossa Missão</h2>
+<br>
+
+<p>
+Queremos fazer parte da sua jornada de autocuidado, oferecendo mais que tratamentos – proporcionando experiências.
+<br>
+Acreditamos que pequenos cuidados diários transformam vidas e fortalecem a confiança, permitindo que cada pessoa possa se sentir bem consigo mesma. 
+<br>
+Na Saúde & Beleza, estamos aqui para apoiar sua beleza única e autêntica.
+
+
+</p>

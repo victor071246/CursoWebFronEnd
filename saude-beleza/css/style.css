@@ -1,11 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap");
 /*Configurações Gerais do Site*/
-
 :root {
     --preto: black;
     --branco: white;
     --cinza: #d4d4d4;
     --verde: rgb(6, 184, 6);
     --verde2: rgb(82, 219, 82);
+    --violt: rgb(238, 130, 238);
+    --orchd: rgb(218, 112, 214);
+    --viodk: rgb(148, 0, 211);
+    --indig: rgb(75, 0, 130);
 }
 
 * {
@@ -18,12 +22,14 @@ html {
     font-size: 1em;
 }
 header {
-    padding: 1%;
-    background-color: var(--preto);
+    padding: auto;
+    padding-top: 10px;
+    background-color: var(--violt);
     color: var(--branco);
     position: fixed;
     font-weight: bold;
     width: 100%;
+    text-align: center;
 }
 
 nav {
@@ -46,14 +52,15 @@ a:hover {
 
 footer {
     padding: 1%;
-    background-color: var(--preto);
+    background-color: var(--violt);
     color: var(--branco);
-    text-align: center;
+    text-align: left;
     font-weight: bold;
+    text-shadow: 2px 2px 2px var(--preto);
 }
 
 body {
-    background-color: var(--cinza);
+    background-color: var(--branco);
 }
 
 main {
@@ -61,8 +68,6 @@ main {
     padding: 1.5%;
     margin: auto;
     width: 90%;
-    border-radius: 12px;
-    box-shadow: 1px 1px 5px;
 }
 aside {
     background-color: var(--branco);
@@ -82,10 +87,13 @@ h2 {
     font-size: 1.5em;
 }
 h3 {
-    font-size: 2em;
+    font-size: 3.5em;
+    font-family: "Great Vibes", cursive;
+    text-shadow: 2px 2px 2px var(--preto);
 }
 h4 {
-    font-size: 1em;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px var(--preto);
 }
 h1,
 h2,
@@ -106,6 +114,7 @@ img {
 p {
     padding-top: 1%;
     padding-bottom: 1%;
+    text-align: justify;
 }
 
 /*Configurações de Parágrafos para Disposivitos Móveis*/
@@ -114,7 +123,7 @@ p {
     p {
         padding-top: 3%;
         padding-bottom: 3%;
-        text-align: justify;
+        text-align: center;
     }
 }
 
@@ -139,15 +148,16 @@ p {
 }
 /*Configurações da Grade de Conteúdo - Grids*/
 
-#grid-conteudo {
-    background-color: var(--cinza);
+.grid-conteudo {
+    background-color: var(--branco);
+    padding-top: 150px;
 }
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     max-width: 1024px;
     margin: auto;
-    gap: 2px;
+    gap: 10px;
 }
 
 .grid div {
@@ -155,6 +165,42 @@ p {
     text-align: center;
 }
 
+/*Trabalhando com Flexbox*/
+
+.grid-equipe {
+    background-color: var(--branco);
+}
+
+.grid-equipe-sb {
+    display: flex; /*Alterando o tipo de display para flex*/
+    justify-content: center; /*Centralizando horizontalmente*/
+    align-items: center; /*Centralizando verticalmente*/
+    flex-wrap: wrap; /*Alinhar ou "quebrar" conforme o tamanho da tela*/
+    max-width: 1024px;
+    margin: auto;
+    gap: 8px;
+    padding: auto;
+}
+
+.grid div {
+    background-color: var(--branco);
+    text-align: center;
+}
+
+/*Configuração de Grid para Mobile*/
+@media (min-width: 360px) and (max-width: 1024px) {
+    .grid-conteudo {
+        background-color: var(--branco);
+        padding-top: 110px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        max-width: 1024px;
+        margin: auto;
+        gap: 2px;
+    }
+}
 /*Configurações para Botões de Ação*/
 
 button {
@@ -172,4 +218,8 @@ button {
 button:hover {
     background: var(--verde2);
     text-shadow: 1px 1px var(--preto);
+}
+
+ul {
+    padding-left: 3%;
 }
