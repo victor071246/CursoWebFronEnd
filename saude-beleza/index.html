@@ -6,6 +6,7 @@
         <link rel="shortcut icon" href="img/sb-logo.ico" type="image/x-icon" />
         <title>Saúde & Beleza</title>
         <link rel="stylesheet" href="css/style.css" />
+        <script src="https://unpkg.com/scrollreveal"></script>
     </head>
     <body>
         <!--Aqui vai o topo do site-->
@@ -46,7 +47,21 @@
                         tenha uma vida plena.
                     </h2>
 
-                    <script></script>
+                    <script>
+                        function escrita(elemento) {
+                            const textoArray = elemento.innerHTML.split("");
+                            elemento.innerHTML = "";
+
+                            textoArray.forEach((letra, i) => {
+                                setTimeout(function () {
+                                    elemento.innerHTML += letra;
+                                }, 80 * i);
+                            });
+                        }
+
+                        const animacao = document.querySelector("h2");
+                        escrita(animacao);
+                    </script>
 
                     <br />
                     <p>
@@ -238,7 +253,37 @@
                 Whatsapp: (11) 98235-7631 (Somente Mensagens)<br />
                 CNPJ: 40.963.840/0001-74
             </p>
+            <br />
+            <h4>Redes Sociais</h4>
+            <a
+                href="https://www.instagram.com/prof_wagnercardoso/"
+                target="_blank"
+            >
+                <img
+                    class="redes-sociais"
+                    src="img/Instagram.webp"
+                    alt="Logo Instagram"
+                />
+            </a>
+            <a>
+                <img
+                    class="redes-sociais"
+                    src="img/Youtube.webp"
+                    alt="Logo Youtube"
+                />
+            </a>
+            <a>
+                <img
+                    class="redes-sociais"
+                    src="img/Tiktok.webp"
+                    alt="Logo Instagram"
+                />
+            </a>
+
+            <br />
             <h6>Desenvolvido por: Tectreinamentos Informática LTDA</h6>
         </footer>
+
+        <script src="/js/script.js"></script>
     </body>
 </html>
